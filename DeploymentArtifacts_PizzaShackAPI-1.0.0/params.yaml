@@ -1,0 +1,10 @@
+environments:
+    - name: dev
+      configs:
+        endpoints:
+            production:
+                url: 'https://localhost:9443/am/sample/pizzashack/v1/api/'
+        deploymentEnvironments:
+            - displayOnDevportal: true
+              deploymentEnvironment: Default
+              deploymentVhost : localhost
