@@ -1,0 +1,10 @@
+environments:
+    - name: prod
+      configs:
+        endpoints:
+            production:
+                url: 'https://petstore.swagger.io/v2/'
+        deploymentEnvironments:
+            - displayOnDevportal: true
+              deploymentEnvironment: Default
+              deploymentVhost : localhost
